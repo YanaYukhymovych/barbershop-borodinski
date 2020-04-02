@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="normalize" href="normalize.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="wrapper">
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="#" aria-label="Главная">
+                            <img src="svg/header-logo.svg" alt="Переход на главную">
+                        </a>
+                    </li>
+                    <li><a href="#" aria-label="Информация">Информация</a></li>
+                    <li><a href="#" aria-label="Новости">Новости</a></li>
+                    <li><a href="#" aria-label="Прайс-лист">Прайс-лист</a></li>
+                    <li><a href="#" aria-label="Магазин">Магазин</a></li>
+                    <li><a href="#" aria-label="Контакты">Контакты</a></li>
+                </ul>
+                <ul>
+                    <li class="user-login"><a href="#" aria-label="Вход">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="inside-content">
+        <div class="wrapper">
+            <h2>Личный кабинет</h2>
+            <p>Введите свой логин и пароль</p>
+            <form class="login-form">
+                <label class="visually-hidden" for="user-login">Логин</label>
+                <input type="text" name="login" id="user-login" placeholder="Логин">
+                <label class="visually-hidden" for="user-password">Пароль</label>
+                <input type="password" name="password" id="user-password" placeholder="Пароль">
+                <label for="remember"></label>
+                <input type="checkbox" name="remember-me" id="remember">
+                <a class="login-item" href="#">Я забыл пароль</a>
+                <input class="btn" type="submit" value="Войти">
+            </form>
+            <button class="form-close" type="button">Закрыть</button>
+        </div>
+    </main>
+
+
+    <footer class="main-footer">
+        <div class="wrapper">
+            <section class="contacts" id="contacts">
+                <p>
+                    Барбершоп "Бородинский"<br>
+                    адресс: г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8<br>
+                    <a href="#">Как нас найти?</a><br>
+                    Телефон: +7 (495) 666-02-66
+                </p>
+            </section>
+
+            <section class="social-pages">
+                <span>Давайте дружить!</span>
+                <ul>
+                    <li>
+                        <a class="social btn" href="https://vk.com/htmlacademy" aria-label="Vkontakte">
+                            <img src="svg/vk.svg" alt="Vkontakte">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social btn" href="https://www.facebook.com/htmlacademy/" aria-label="Facebook">
+                            <img src="svg/facebook.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social btn" href="https://www.instagram.com/htmlacademy/" aria-label="Instagram">
+                            <img src="svg/instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="copyrighting">
+                <div>
+                    <span>Разработано:</span>
+                    <a class="copyright btn" href="https://htmlacademy.ru/">html academy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
